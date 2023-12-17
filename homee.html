@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Johnlloyd's Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f3057;
+      color: #ffffff;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      margin: 0 auto;
+      padding: 50px 0;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #0f3057;
+      border-bottom: 1px solid #00a8e8;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      color: #00a8e8;
+      text-transform: uppercase;
+    }
+
+    nav {
+      display: flex;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #ffffff;
+      padding: 5px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #007ea7;
+    }
+
+    h1 {
+      padding: 150px;
+      font-size: 90px;
+      margin-bottom: 20px;
+      color: #00a8e8;
+      border: 10px solid #000000;
+    }
+
+    p {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    #about {
+      text-align: center;
+      padding: 50px;
+    }
+
+    #about img {
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #000000;
+    }
+
+    section#gallery img{
+      width: 265px;
+      height: 260px;
+      border: 5px solid #000000;
+    }
+
+    section#blogs {
+      margin-top: 50px;
+    }
+
+    .blogs {
+      width: calc(33.333% - 20px);
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #007ea7;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+      margin-bottom: 30px;
+    }
+
+    .blogs:hover {
+      transform: translateY(-5px);
+    }
+
+    .blogs img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .blogs-content {
+      padding: 20px;
+    }
+
+    .blogs-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .blogs-description {
+      font-size: 16px;
+      color: #e0e0e0;
+    }
+
+    section#contact {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+
+    .contact a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 5px;
+      background-color: #00a8e8;
+      color: #ffffff;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact a:hover {
+      background-color: #007ea7;
+    }
+
+    #submitForm {
+      text-align: center;
+    }
+
+    #submitForm input[type="text"],
+    #submitForm input[type="email"],
+    #submitForm textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    #submitForm textarea {
+      height: 120px;
+    }
+
+    #submitForm button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #00a8e8;
+      color: #ffffff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #submitForm button:hover {
+      background-color: #007ea7;
+    }
+
+    .form-response {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+      color: #00a8e8;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #0f3057;
+      color: #ffffff;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 14px;
+    }
+
+    .blogs-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">Johnlloyd</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Chat mo'ko</a>
+
+      </nav>
+    </div>
+    <center><h1>Welcome to my website</h1></center>
+    <center><p>I'M A FORMER K9!  </p></center>
+    <section id="about">
+  <h2>About Me</h2>
+  <img src="img/11.jpg">
+  <p>I am Johnlloyd Tejada,19 years old from Paras, Candon City</p>
+  <p>I realized that you will always be my friend when our depressive and manic episodes synchronize. It’s so fun to do crazy stuff and then cry all night long with someone like you, buddy.</p>
+  <p>Rawrrrrrr.....awwww awwww awww!</p>
+</section>
+
+<section id="blogs">
+      <h2>Blogs</h2>
+      <div class="blogs-container"> <!-- Container for blogs -->
+      <div class="blogs">
+        <img src="img/project.jpg" alt="Blogs">
+        <div class="blogs-content">
+          <div class="blogs-title"><a href="https://neda.gov.ph/harnessing-digital-technologies-can-help-philippines-overcome-impact-of-pandemic-hasten-recovery/" target="_blank">Harnessing Digital Technologies</a></div>
+          <div class="blogs-description"> The use of digital technologies in the Philippines, however, is still below its potential, with the country’s digital adoption generally trailing behind many regional neighbors. The “digital divide” between those with and without internet leads to unequal access to social services and life-changing economic opportunities. </div>
+        </div>
+      </div>
+
+      <div class="blogs">
+        <img src="img/project2.jpeg" alt=" ">
+        <div class="blogs-content">
+          <div class="blogs-title"><a href="https://www.techtarget.com/whatis/feature/Crypto-winter-explained-Everything-you-need-to-know#:~:text=A%20crypto%20winter%20is%20caused,leading%20to%20a%20crypto%20winter." target="_blank">Crypto Winter</a></div>
+          <div class="blogs-description"> Crypto winter is the literal season of discontent for the cryptocurrency market. It's a term that is loosely based on the concept of 'Winter is Coming' from the HBO series Game of Thrones, whereby winter is a time of challenge and conflict. </div>
+        </div>
+      </div>
+
+      <div class="blogs">
+        <img src="img/project4.jpeg" alt="Project 3">
+        <div class="blogs-content">
+          <div class="blogs-title"><a href="https://www.indeed.com/career-advice/career-development/it-industry" target="_blank">The Country's IT Industry</a></div>
+          <div class="blogs-description">Information technology is a general term for the study, creation, marketing and use of technological systems like computer networks. IT has grown in recent years and expanded to include many industries as technology becomes a more important aspect of everyday life.  </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+    <section id="gallery">
+    <h2>Gallery</h2>
+        <img src="img/1.jpeg" alt="1">
+        <img src="img/2.jpg" alt="2">
+        <img src="img/3.jpeg" alt="3">
+        <img src="img/4.jpeg" alt="4">
+        <img src="img/5.jpeg" alt="5">
+        <img src="img/6.jpg" alt="6">
+        <img src="img/7.jpeg" alt="7">
+        <img src="img/8.jpg" alt="8">
+        <img src="img/9.jpg" alt="9">
+        <img src="img/10.jpeg" alt="10">
+    </section>
+
+    <section id="contact">
+    <div class="contact">
+      <a href="mailto:email@example.com">Contact Me</a>
+      <a href="https://github.com" target="_blank">GitHub</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      <a href="https://facebook.com/" target="_blank">facebook</a>
+    </div>
+    </section>
+
+    <section id="contact">
+  <div class="contact">
+    <form id="submitForm">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+
+    <div class="footer">
+      © 2023 Johnlloyd Tejada. All rights reserved.
+    </div>
+
+    <script>
+      document.getElementById('submitForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        alert('Form submitted! Thank you.');
+
+        this.reset();
+      });
+    </script>
+
+  </div>
+</body>
+</html>

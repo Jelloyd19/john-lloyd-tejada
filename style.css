@@ -1,0 +1,155 @@
+body {
+    background-color: #C5FFF8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+header {
+    background-color:#C5FFF8;
+    padding: 25px;
+    box-shadow: 197px 255px 248px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #FFA500;
+    border-bottom: 2px solid #161A30;
+}
+
+
+h1, h2, h3, p {
+    margin-bottom: 10px;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #96EFFF;
+    color: #96EFFF;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.hero-section {
+    background-color: #96EFFF;
+    padding: 50px;
+    text-align: center;
+    color: #161A30;
+}
+
+.about-section, .blog-section, .gallery-section, .contact-section {
+    background-color: #96EFFF;
+    padding: 40px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2, .blog-section h2, .gallery-section h2, .contact-section h2 {
+    color: #31304D;
+}
+
+.gallery-section {
+    background-color: #5FBDFF;
+    padding: 95px;
+    margin-top: 189px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-section h2 {
+    color: #31304D;
+    text-align: center;
+}
+
+.gallery-section img {
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+
+}
+.pic4{
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+
+}
+.primo
+{
+    font-weight: 600;
+}
+.Primo{
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+}
+.ash{
+    padding: 25px;
+}
+.premo{
+    width: 35px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -40px;
+    left: 500px;
+    cursor: pointer;
+}
+.ashley{
+    width: 35px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -36px;
+    left: 500px;
+    cursor: pointer;
+}
+.ley{
+    width: 35px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -33px;
+    left: 500px;
+    cursor: pointer;
+}
